@@ -4,7 +4,7 @@ $(document).ready(function() {
 })
 
 function searchWeather() {
-  var searchQuery = $(.'search').val();
+  var searchQuery = $('.search').val();
   getWeather(searchQueary);
 }
 
