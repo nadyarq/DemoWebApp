@@ -1,13 +1,13 @@
 body {
-  background-color: #d0e4fe;
+  background-color: #99ccff;
 }
 
 h1 {
-  color: orange;
+  color: #660066;
   text-align: center;
 }
 
 p {
-  font-family: "Courier New";
-  font-size: 30px;
+  font-family: "Verdana";
+  font-size: 35px;
 }
