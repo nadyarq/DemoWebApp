@@ -9,7 +9,7 @@ h1 {
   font-size: 40px;
 }
 
-.weather-part {
+.weather-wrapper {
 	padding: 0 20px
 }
 
@@ -25,7 +25,7 @@ h1 {
 	vertical-align: middle;
 }
 
-.search-part {
+.search-wrapper {
 	padding: 20px 0;
 }
 
