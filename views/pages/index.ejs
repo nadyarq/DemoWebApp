@@ -3,20 +3,34 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css"/>
-  <script src="/js/main.js"></script>
-</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+	var apiKey = '7641a8d54891c56689912a66001a1ca3';
+	</script>
+	<script src = "/js/countryCodes.js">
+	</script>
+	<script src = "/js/main.js"></script>
+  </head>
 
 <body>
 
-  <h1>My Webapp</h1>
+  <h1>My Weather WebApp!</h1>
 
-  <p id="demo">
-    This is me testing out a lil html file
-  </p>
+  <div class = "weather-part">
+	<h2 class="city"></h2>
+	<h3 class="temp"></h3>
+	<p class="summary"></p>
+	
+	<hr />
 
-  <button type="button" onclick="myFunction()">
-    Try it
-  </button>
+  <div class = "search-part">
+	<input class="search" type="text" placeholder="Enter name of city" />
+	<button type="button" onclick="searchWeather()">
+		Search
+	</button>
+	<span class = "error-message"></span>
+	</div>
+	</div>
 
 </body>
 
